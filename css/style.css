@@ -1,0 +1,110 @@
+
+/*body
+{
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed
+}*/
+
+/************ Start overriding bootstrap *************/
+ul{list-style:none;}
+
+.horizontal-nav {
+  background: #fff;
+  border-radius: 6px;
+}
+.horizontal-nav ul {
+  background: #128F9A;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #0e7079;
+  float: right; 
+  margin-top: 10px;
+  padding: 10px;
+}
+.horizontal-nav ul li {
+  float: left;
+  border-left: 1px solid #0e7079;
+   padding: 10px;
+}
+.horizontal-nav ul li:first-child {
+  border-left: 0 none;
+}
+.horizontal-nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  border-top: 1px solid rgba(255,255,255, 0.25);
+  border-left: 1px solid rgba(255,255,255, 0.25);
+}
+.horizontal-nav ul li:first-child a {
+  border-left: 0 none;
+}
+.horizontal-nav ul li a:hover {
+  background: #12808a;
+}
+.horizontal-nav ul li:first-child a {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+ 
+}
+.horizontal-nav ul li:last-child a {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+@font-face 
+{
+    font-family: bluebell;
+    src: url(Control Panel\Appearance and Personalization\Fonts);
+}
+.navbar-brand 
+{
+	font-family: bluebell;
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.img-responsive
+{
+	margin-top: -30px
+}
+.carousel-inner
+{
+	margin-top: 30px;
+}
+.carousel-inner,.item 
+{
+	height: 100%;
+}
+.carousel-caption
+{
+	bottom: 70px;
+	background:rgba(3,3,3,0.2);
+}
+h1,p
+{
+	color: #d6e9ea
+}
+.carousel-indicators li
+{
+	height: 15px;
+	width: 15px;
+}
+
+.carousel-indicators .active
+{
+	height: 17px;
+	width: 17px;
+	background: #128F9A
+}
+}
+
+/************ End overriding bootstrap *************/
+
+
+
+
+
+
+
+
